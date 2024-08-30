@@ -106,8 +106,8 @@
     
      이 분석을 통해, 대출 원금의 크기와 상환 성공 여부 간의 관계를 직관적으로 파악할 수 있었습니다.
     
-    ![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/4c71dd3a-215f-4f3a-b65f-dd78e0fc5622/Figure_1.png)
-    
+    ![Figure_1](https://github.com/user-attachments/assets/2c3ff3d2-5e8d-4f76-b42d-5c82b5d812a9)
+
     **<Terms 변수 분석>**
     
     ```python
@@ -129,7 +129,8 @@
     
      이를 통해, 대출 상환 기간이 길수록 상환 성공률이 높아지는 경향이 있음을 확인할 수 있었습니다.
     
-    ![Figure_2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/0cdb4368-9323-4157-889d-8b6b48ce56e7/Figure_2.png)
+    ![Figure_2](https://github.com/user-attachments/assets/8589acf7-e3fb-40cd-98da-73f953c36780)
+
     
     **<Effective Date 변수 분석>**
     
@@ -148,7 +149,8 @@
     
      이 분석을 통해 특정 날짜에 대출 상환 성공률이 높아지는 패턴을 확인할 수 있었습니다.
     
-    ![Figure_3.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/617339ce-3155-4beb-ad59-2069530265a3/Figure_3.png)
+    ![Figure_3](https://github.com/user-attachments/assets/95d25b22-8a9e-43ef-be89-de19bb528bfb)
+
     
     **<Education 변수 분석>**
     
@@ -170,7 +172,8 @@
     
      분석 결과, 고학력자일수록 대출 상환 성공률이 높다는 결론을 얻을 수 있었습니다.
     
-    ![Figure_4.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/54fad454-f445-424c-978e-b16978b3b61b/Figure_4.png)
+    ![Figure_4](https://github.com/user-attachments/assets/44ed32b7-efe5-4f48-bfdc-d110b9f33f8e)
+
     
     **<Gender 변수 분석>**
     
@@ -189,7 +192,8 @@
     
      이를 통해 성별에 따른 대출 상환 성공률의 차이를 확인할 수 있었습니다.
     
-    ![Figure_5.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/61d947a5-fe4b-45c2-964d-fa9fb254f83c/Figure_5.png)
+    ![Figure_5](https://github.com/user-attachments/assets/a46eed7d-76c1-4101-8f8a-ee1fa40d96b4)
+
     
     **<기간 (Effective Date ~ Due Date) 분석>**
     
@@ -211,7 +215,8 @@
     
      이 분석을 통해, 대출 상환 기간이 길어질수록 상환 성공률이 변화하는 패턴을 관찰할 수 있었습니다.
     
-    ![Figure_6.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/24ccf485-be6f-40e0-90b9-89852ab0fcbe/Figure_6.png)
+    ![Figure_6](https://github.com/user-attachments/assets/c5da58e5-3c23-4d8a-9731-e0508c9eb699)
+
     
 - **3. 데이터 가공**
     
@@ -648,7 +653,7 @@
 
 ### **1. 연방학습 결과**
 
-![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/622a00dc-4c18-4bc1-993f-ce2c31420973/6ab0411a-a3d4-449f-b9fb-23b067d71f8c/Figure_1.png)
+![Figure_1](https://github.com/user-attachments/assets/2d93a01e-7ab9-4be9-9f66-7ab2b73bfc92)
 
  연방학습을 적용한 결과, 각 라운드(round)별 테스트 손실(Test Loss)과 테스트 정확도(Test Accuracy)의 변화를 관찰할 수 있었습니다. 위 이미지는 각각 연방학습 중 라운드별 테스트 손실과 테스트 정확도의 변화를 시각화한 것입니다.
 
